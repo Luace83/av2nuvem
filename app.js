@@ -8,6 +8,7 @@ app.get('/',(req,res) => {
 });
 
 //Comando 2
+//Comandos 2
 app.get('/sobre', (req,res) => {
     res.send('<h1>Sobre nós</h1><p>Informações sobre a empresa.</p>');
 });
@@ -19,4 +20,4 @@ app.get('/contato', (req,res) => {
 
 app.listen(PORT, () => {
     console.log('Servidor rodando em http://localhost:${PORT}');
-});
+});});
